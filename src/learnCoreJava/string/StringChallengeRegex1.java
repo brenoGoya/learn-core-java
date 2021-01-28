@@ -14,10 +14,7 @@ public class StringChallengeRegex1 {
 		System.out.println(hexaDecimal);
 		System.out.println(hexaDecimal.matches("[0-9A-F]+"));
 		System.out.println(d);
-		System.out.println(d.matches("[0-3][0-9]/[01][0-9]/[0-9]{4}"));
-	
-		
-		
+		System.out.println(d.matches("[0-3][0-9]/[01][0-9]/[0-9]{4}"));		
 	}
 
 }
