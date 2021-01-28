@@ -15,7 +15,7 @@ public class StringChallengeRegex2 {
 		
 		System.out.println(str1);				
 		String words[] = str1.split("\\s");
-		System.out.println("Number of words: " + words.length);
+		System.out.println("Number of words: " + words.length);		
 	}
-
+	
 }
