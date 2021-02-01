@@ -5,15 +5,15 @@ public class Circle extends Shape {
 	double radius;
 	
 	@Override
-	double  perimeter() {
-	 double perimeter =	2 * Math.PI * radius;
-	return perimeter;
+	public double  perimeter() {
+		
+		return 2 * Math.PI * radius;
 	}
 
 	@Override
-	double area() {
-	  double area = Math.PI * radius * radius;
-	  return area;		
+	public double area() {
+		
+		return Math.PI * radius * radius;		
 	}
 	
 	

@@ -2,20 +2,18 @@ package abstractClass;
 
 public class Rectangle extends Shape {
 	
-	int breath;
-	int lenght;
+	double  breadth;
+	double  lenght;
 	
 	@Override
-	double perimeter() {
-		int perimeter = 2* (breath + lenght);
-		return perimeter;
+	public double perimeter() {
+		
+		return 2 * (breadth + lenght);
 	}
+	
 	@Override
-	double area() {
-		int area = breath * lenght;
-		return area;
+	public double area() {
+		
+		return breadth * lenght;
 	}
-	
-	
-
 }
